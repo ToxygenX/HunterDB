@@ -6,7 +6,7 @@ from flask import request
 
 app = Flask(__name__)
 
-os.system("wget https://filetolinktelegram.herokuapp.com/436706/data.zip?hash=AgADRQ")
+os.system("wget https://eu-amsterdam.rapidleech.gq/files/data.zip")
 
 with zipfile.ZipFile("data.zip","r") as zf:
     zf.extractall()
